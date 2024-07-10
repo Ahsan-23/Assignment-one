@@ -355,3 +355,98 @@ padding: 20px 0;
     letter-spacing: 0%;
     text-align: left;   
 }
+
+
+/* Support section styling*/
+.support{
+    position: absolute;
+    width: 1260px;
+    height: 350px;
+    top: 3100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+   
+}
+.s-content{
+    width: 1000px;
+    height: 250px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.s-header{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 30px;
+}
+.s-intro{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.box{  
+position: static;
+width: 400px;
+height: 20px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 10px 20px 19px 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+border-radius: 7px;
+}
+input::placeholder {
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.s-feedback{
+    display: flex;
+}
+.Submit{
+ width: 90px;
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 10px 10px 10px;
+ color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 7px;
+}
